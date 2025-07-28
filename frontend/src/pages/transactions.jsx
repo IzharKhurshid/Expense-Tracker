@@ -105,14 +105,14 @@ export const Transactions = () => {
               <span>Pay</span>
             </button>
 
-            <button
+            {/* <button
               onClick={() =>
                 exportToExcel(data, `Transactions ${startDate}-${endDate}`)
               }
               className="flex items-center gap-2 text-black dark:text-gray-300"
             >
               Export <CiExport size={24} />
-            </button>
+            </button> */}
           </div>
         </div>
 
